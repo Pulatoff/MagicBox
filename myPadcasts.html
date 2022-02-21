@@ -25,33 +25,33 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <section class="header flex container-1">
-      <div class="header__left flex">
-        <img src="/img/Full Logo.png" alt="logo" />
-        <a href="#">Home</a>
-        <a href="#">Browse</a>
-        <a href="#" class="header__left--active">Library</a>
+    <header class="header">
+      <div class="header__left">
+        <img src="images/logo-header.svg" alt="" />
+        <nav class="header__navbar">
+          <a class="text" href="#">Browse</a>
+          <a class="text" href="#">Libary</a>
+          <a class="text" href="#">Home</a>
+        </nav>
       </div>
-      <div class="header__middle flex">
-        <a href="#" class="header__middle--active">Playlists</a>
-        <a href="#">Albums</a>
-        <a href="#">Artists</a>
-        <a href="#">Podcasts</a>
-        <a href="#">Listening History</a>
+      <div class="header__center">
+        <nav class="header__navbar display-flex gap-2">
+          <a class="text" href="./myPlaylist.html">Playlist</a>
+          <a class="text" href="./albums.html">Albums</a>
+          <a class="text" href="./artist.html">Artists</a>
+          <a class="text" href="./myPadcasts.html">Podcasts</a>
+          <a class="text" href="./listeningHistory.html">Listening Hiistory</a>
+        </nav>
       </div>
-      <div class="header__right flex">
-        <div class="header__right--search flex">
-          <ion-icon name="search-outline"></ion-icon>
-          <input type="text" placeholder="Search" />
-        </div>
-        <div class="header__right--profil flex">
-          <ion-icon name="person-circle-outline"></ion-icon>
-          <select name="profil" id="profil">
-            <option value="profil">John Doe</option>
-          </select>
-        </div>
+      <div class="header__right">
+        <input
+          class="header__search border-radius-1"
+          type="search"
+          placeholder="search"
+        />
+        <p class="text">John Deo &darr;</p>
       </div>
-    </section>
+    </header>
     <section class="padcasts">
       <div class="container">
         <div class="padcasts__my">
