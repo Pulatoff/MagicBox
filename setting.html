@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Setting</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <img src="images/logo-header.svg" alt="" />
+        <nav class="header__navbar">
+          <a class="text" href="#">Browse</a>
+          <a class="text" href="#">Libary</a>
+          <a class="text" href="#">Home</a>
+        </nav>
+      </div>
+      <div class="header__right">
+        <input
+          class="header__search border-radius-1"
+          type="search"
+          placeholder="search"
+        />
+        <p class="text">John Deo &darr;</p>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div
+          class="display-flex space-beetwen align-center padding-top margin-bottom"
+        >
+          <div class="podcasts__page--left">
+            <div class="display-flex gap-4 align-center">
+              <img class="border-radius" src="./images/Profile.png" alt="" />
+              <div class="items--name--page">
+                <h1 class="padcasts__my--name-heading">Niyozbek Pulatov</h1>
+                <p class="text">Pro Account</p>
+              </div>
+            </div>
+          </div>
+          <div class="podcasts__page--right">
+            <div class="display-flex gap-2 align-center">
+              <a class="btn-linear">Go to Premium</a>
+            </div>
+          </div>
+        </div>
+        <form action="" class="form">
+          <div class="grid-row-2 margin-top-1">
+            <div class="input-form">
+              <label class="cart-descrip" for="userName">First Name</label>
+              <input type="text" placeholder="username" id="userName" />
+            </div>
+            <div class="input-form">
+              <label class="cart-descrip" for="lastName">Last Name</label>
+              <input type="text" placeholder="lastName" id="lastName" />
+            </div>
+          </div>
+          <div class="grid-row-1 margin-top-1">
+            <div class="input-form">
+              <label class="cart-descrip" for="email">Email</label>
+              <input type="email" placeholder="email" id="email" />
+            </div>
+          </div>
+          <div class="grid-row-2 margin-top-1">
+            <div class="input-form">
+              <label class="cart-descrip" for="gender">Gender</label>
+              <input type="text" placeholder="Gender" id="gender" />
+            </div>
+            <div class="input-form">
+              <label class="cart-descrip" for="country">Country</label>
+              <input type="text" placeholder="Country" id="country" />
+            </div>
+          </div>
+          <div class="grid-row-3 margin-top-1">
+            <div class="input-form">
+              <label class="cart-descrip" for="date">Date of Birth</label>
+              <input type="number" placeholder="Date of Birth" id="date" />
+            </div>
+            <div class="input-form">
+              <label class="cart-descrip" for="dateMonth">Month</label>
+              <input type="number" placeholder="Month" id="dateMonth" />
+            </div>
+            <div class="input-form">
+              <label class="cart-descrip" for="dateYear">Year</label>
+              <input type="number" placeholder="Year" id="dateYear" />
+            </div>
+          </div>
+          <div class="display-flex space-beetwen margin-top-2">
+            <h3 class="text">Facebook</h3>
+            <h3 class="cart-descrip">not Conected</h3>
+          </div>
+          <div class="display-flex space-beetwen margin-top-1">
+            <h3 class="text">Google</h3>
+            <h3 class="cart-descrip">not Conected</h3>
+          </div>
+          <div class="padcasts__my--name margin-top">
+            <h2 class="padcasts__my--name-heading">Streaming</h2>
+          </div>
+          <p class="text border-bottom">Audio Quality</p>
+          <div class="audio-qality">
+            <p class="cart-descrip margin-top-1">Normal(128kb/s)</p>
+            <p class="cart-descrip margin-top-1">High(360kb/s)</p>
+            <p class="cart-descrip margin-top-1 border-bottom">
+              Highest(720kb/s)
+            </p>
+          </div>
+          <div class="padcasts__my--name margin-top">
+            <h2 class="padcasts__my--name-heading">Acount</h2>
+          </div>
+
+          <div class="audio-qality">
+            <p class="text margin-top-1">Enable Browser</p>
+            <p class="text margin-top-1">Language</p>
+            <p class="text margin-top-1">Changes password</p>
+            <p class="text margin-top-1">Add new account</p>
+            <p class="cart-descrip margin-top-1">Terms and condiction</p>
+            <p class="cart-descrip margin-top-1">Privacy Policy</p>
+            <p class="cart-descrip margin-top-1">Support</p>
+          </div>
+          <div class="btn__show">
+            <a href="#">Log Out</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

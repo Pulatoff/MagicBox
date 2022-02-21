@@ -1,0 +1,181 @@
+.grid-row-8 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.icon-heart {
+  font-size: 2rem;
+  color: white;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.gap-6 {
+  gap: 6rem;
+}
+
+.title-overwiew {
+  color: white;
+  font-size: 4rem;
+}
+
+.padding {
+  transition: all 0.2s;
+  padding: 2rem 0;
+}
+
+.padding:hover {
+  background-color: rgba(255, 255, 255, 0.529);
+}
+
+.grid-row-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form input {
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #000;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #999999;
+  padding-bottom: 10px;
+}
+
+.bg-img-rock {
+  background-image: url(../images/rock/BG.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.bg-img-playlist {
+  background-image: url(../images/playlist/BG.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.bg-img-album {
+  background-image: url(../images/album/BG.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.bg-img-artist {
+  background-image: url(../images/artistPage/BG.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.bg-img-radio {
+  background-image: url(../images/playlistRadio/BG.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.bg-img-created {
+  background-image: url(../images/createdPlaylist/BG.jpg);
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.sign {
+  height: 100vh;
+}
+
+.sign-items {
+  position: relative;
+  padding: 3rem 9rem;
+  background-color: white;
+  width: 60rem;
+  margin: 0 auto;
+}
+
+.sign-title {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+#exit {
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  font-size: 2rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.sign-form-input {
+  border: 0;
+  height: 5rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.recaptcha {
+  margin-left: 45px;
+}
+
+.text-sign {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.sign-btn {
+  border-radius: 30px;
+  color: white;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  background-color: #2d9bef;
+  padding: 1rem 14rem;
+}
+
+.index__header {
+  padding: 2rem 0;
+
+  backdrop-filter: blur(5px);
+  z-index: 10;
+}
+
+.bg-img-index {
+  background-image: url(../images/hero-slider.png);
+  height: 95vh;
+  background-size: cover;
+}
+
+.index-hero-title {
+  color: white;
+  font-size: 4rem;
+  padding-top: 30rem;
+}
+
+.grid-item img {
+  transition: all 0.3s;
+}
+
+.grid-item img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}

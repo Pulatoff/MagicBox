@@ -1,0 +1,64 @@
+.btn {
+  padding: 0.7em 1.3em;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #f2f2f2;
+  border-radius: 10em;
+  &--light {
+    background-color: $color-white;
+    color: $main-color;
+  }
+  &--linear-gradient {
+    background-image: $linear-color-btn;
+    padding: 0.8em 1.4em;
+    border: none;
+  }
+}
+
+.btn__show {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  a {
+    padding: 1rem 2.8rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    transition: all 0.2s;
+    &:hover {
+      color: #333;
+      background-color: #fff;
+    }
+  }
+}
+
+.btn-linear {
+  padding: 1rem 6rem;
+  background-image: linear-gradient(to right bottom, #35edfb, #2d9bef);
+  border-radius: 2rem;
+  color: white;
+  font-size: 1.6rem;
+  display: inline-block;
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.274);
+  }
+}
+
+.btn_like {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.progress-page {
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #949494;
+}

@@ -1,0 +1,34 @@
+@media (max-width: 426px) {
+  html {
+    font-size: 30%;
+  }
+  .flow {
+    grid-template-columns: 1fr;
+  }
+  .find-your-phone .about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about img {
+    width: 100%;
+  }
+  .listen-any-where {
+    height: 200px;
+  }
+  .premium--icons {
+    flex-direction: column;
+  }
+  .premium-icons-round {
+    height: 10rem;
+  }
+  .main-text {
+    margin-top: 6rem;
+  }
+  .footer_grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .index__header--right {
+    display: none;
+  }
+}

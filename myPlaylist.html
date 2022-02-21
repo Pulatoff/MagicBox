@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>My Playlist</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <img src="images/logo-header.svg" alt="" />
+        <nav class="header__navbar">
+          <a class="text" href="#">Browse</a>
+          <a class="text" href="#">Libary</a>
+          <a class="text" href="#">Home</a>
+        </nav>
+      </div>
+      <div class="header__center">
+        <nav class="header__navbar display-flex gap-2">
+          <a class="text" href="#">Playlist</a>
+          <a class="text" href="#">Albums</a>
+          <a class="text" href="#">Artists</a>
+          <a class="text" href="#">Podcasts</a>
+          <a class="text" href="#">Listening Hiistory</a>
+        </nav>
+      </div>
+      <div class="header__right">
+        <input
+          class="header__search border-radius-1"
+          type="search"
+          placeholder="search"
+        />
+        <p class="text">John Deo &darr;</p>
+      </div>
+    </header>
+    <section class="my-playlist">
+      <div class="container">
+        <div class="padcasts__my--name margin-top margin-bottom">
+          <h2 class="padcasts__my--name-heading">My Playlist</h2>
+          <p class="view-all">Viewall</p>
+        </div>
+        <div class="grid-row-6 columns-2">
+          <div class="grid-item">
+            <img
+              class="width-100 border-radius"
+              src="./images/myPlaylist/1.png"
+              alt=""
+            />
+            
+          </div>
+          <div class="grid-item">
+            <img
+              class="width-100 border-radius"
+              src="./images/podcasts/2.jpg"
+              alt=""
+            />
+            <h3 class="cart-name">Simple Pleasures</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+          <div class="grid-item">
+            <img
+            class="width-100 border-radius"
+            src="./images/myPlaylist/2.jpg"
+            alt=""
+          />
+            <h3 class="cart-name">Simple Pleasures</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+          <div class="grid-item">
+            <img
+            class="width-100 border-radius"
+            src="./images/myPlaylist/3.jpg"
+            alt=""
+          />
+            <h3 class="cart-name">Simple Pleasures</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+          <div class="grid-item">
+            <img
+            class="width-100 border-radius"
+            src="./images/myPlaylist/4.jpg"
+            alt=""
+          />
+            <h3 class="cart-name">Simple Pleasures</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+          <div class="grid-item">
+            <img
+            class="width-100 border-radius"
+            src="./images/myPlaylist/5.jpg"
+            alt=""
+          />
+            <h3 class="cart-name">Simple Pleasures</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+          <div class="grid-item">
+            <img
+            class="width-100 border-radius"
+            src="./images/myPlaylist/6.jpg"
+            alt=""
+          />
+            <h3 class="cart-name">StarTalk Radio Show</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+          <div class="grid-item">
+            <img
+            class="width-100 border-radius"
+            src="./images/myPlaylist/7.jpg"
+            alt=""
+          />
+            <h3 class="cart-name">99% Invisible</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+          <div class="grid-item">
+            <img
+            class="width-100 border-radius"
+            src="./images/myPlaylist/7.jpg"
+            alt=""
+          />
+            <h3 class="cart-name">The Adventure Zone</h3>
+            <p class="cart-descrip">Released 15/02/2019</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="player">
+      <div class="player__music">
+        <div class="player__music-img">
+          <img src="images/icanfly.jpg" alt="">
+        </div>
+        <div class="player__music-about">
+          <p class="player__music-name">I can Fly</p>
+          <p class="player__music-singer">Xcho</p>
+        </div>
+        <input type="checkbox" name="ss" id="likee" class="likee">
+        <label for="likee" class="player__music-like"><i class="fa-solid fa-heart"></i> <i class="fa-solid fa-check blue-text"></i></>
+        </label>
+        </div>
+      <div class="player__control">
+          <div class="player__control-top">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-solid fa-pause"></i>
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-repeat"></i>
+          </div>
+          <div class="player__control-minute">
+            <p class="player__control-minute-start">2:05</p>
+            <span class="status"></span>
+            <p class="player__control-minute-end">4:26</p>
+          </div>
+      </div>
+      <div class="player__right">
+        <a href="#" class="player__right-playlist"><i class="fa-solid fa-list-music"></i></a>
+        <div class="player__volume">
+          <input type="checkbox" name="s" id="volumee" class="volumee">
+          <label for="volumee" class="kalonka"><div class="mute"></div> <i class="fa-solid fa-volume-high"></i></label>
+          <span class="volume-degree"></span>
+        </div>  
+      </div>
+    </section>
+  </body>
+</html>
